@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "name": "rotateSecrets",
+            "type": "timerTrigger",
+            "direction": "in",
+            "schedule": "%ROTATE_SECRETS_CRON_TIMER%"
+        }
+    ],
+    "scriptFile": "../dist/rotateSecrets/index.js"
+}
