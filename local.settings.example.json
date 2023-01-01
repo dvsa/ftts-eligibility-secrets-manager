@@ -1,0 +1,23 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureFunctionsJobHost__logging__logLevel__Default": "Trace",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": "mock-key",
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "AzureWebJobsSecretStorageType": "files",
+        "DVLA_API_AUTHENTICATION_BASE_URI": "",
+        "DISABLE_EGRESS_FILTERING": false,
+        "EGRESS_CUSTOM_ALLOWED_ADDRESSES": "[]",
+        "FUNCTIONS_WORKER_RUNTIME": "node",
+        "LOG_LEVEL": "debug",
+        "NODE_ENV": "development",
+        "ROTATE_SECRETS_CRON_TIMER": "0 */5 * * * *",
+        "SECRET_KEY_APIKEY": "",
+        "SECRET_KEY_PASSWORD": "",
+        "SECRET_KEY_USERNAME": "",
+        "SECRET_KV_URI": "",
+        "USER_ASSIGNED_ENTITY_CLIENT_ID": "",
+        "WEBSITE_NODE_DEFAULT_VERSION":"~16",
+        "WEBSITE_SITE_NAME": "ftts-eligibility-secrets-manager"
+    }
+}
